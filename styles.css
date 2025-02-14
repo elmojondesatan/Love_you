@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('https://img.freepik.com/vector-gratis/fondo-primavera-dibujado-flores_23-2148833619.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 2em;
+    text-shadow: 2px 2px 5px black;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: darkred;
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+}
